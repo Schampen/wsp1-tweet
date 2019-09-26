@@ -4,7 +4,7 @@
                     <div class="card-header d-flex" style="align-items: center;">
                         <img src="https://robohash.org/<?= $row['name']?>?set=set5" alt="Profil bild" height="5%" width="5%" style="border-radius: 50%;">
                         <a href="users.php?id=<?= $row['user_id'] ?>">
-                        <h5 style="padding-left: 10px;">
+                        <h5 style="padding-left: 1em;">
                             <?= $row['name'] ?>
                         </h5>
                         </a>

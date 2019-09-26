@@ -8,5 +8,7 @@ $sth = $dbh->prepare('SELECT tweet.*, users.name FROM tweet JOIN users ON tweet.
 $sth->execute();
 $result = $sth->fetchALL(PDO::FETCH_ASSOC);
 
+$title = "Twotter home";
+
 include 'views/index_layout.php';
 ?>
