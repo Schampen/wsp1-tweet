@@ -18,7 +18,7 @@ $sth->execute();
 $result = $sth->fetchAll(PDO::FETCH_ASSOC);
 
 
-$title = $result['name'];
+$title = $userResult['name'];
 
 include 'views/users_layout.php';
 ?>

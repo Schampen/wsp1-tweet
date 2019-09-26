@@ -12,7 +12,7 @@ $sth->execute();
 $result = $sth->fetch(PDO::FETCH_ASSOC);
 $row = $result;
 
-$title = "Tweet from " . row['name'];
+$title = "Tweet from " . $row['name'];
 
 
 include 'views/tweet_layout.php';
